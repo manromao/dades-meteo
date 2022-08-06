@@ -7,8 +7,8 @@ from datetime import date, timedelta
 BASE_URL = 'http://www.meteoguilleries.cat/API/dadesdiariesEstacio/arb/'
 headers = {'content-type': 'application/json', 'Accept-Charset': 'UTF-8'}
 
-for any in range (2022,2023):
-    for mes in range(1, 9):
+for any in range (2017,2023):
+    for mes in range(1, 13):
         #determine file
         url = BASE_URL + str(any) + "/" + str(mes)
         
